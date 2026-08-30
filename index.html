@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First-HTML</title>
+    <title>Second-HTML</title>
 </head>
 
 <body>
     <header>
+        <hr>
         <div>
-            <img src="/nyc_my_avatar.jpg" alt="Profile Image">
-            <h1>Akant Insha</h1>
+            <img src="nyc_my_avatar.jpg" width="50" alt="Profile Image">
+            <span><b>Akant Insha</b></span>
         </div>
         <nav>
             <a href="#">Home</a>
@@ -20,44 +21,58 @@
             <a href="#">Contact</a>
         </nav>
     </header>
-    <br>
     <main>
         <section>
             <h1>Student at Not Your College</h1>
             <p>html only with semantics, no styling</p>
         </section>
-        <br>
+        <hr>
         <section>
-            <div>
-                <h2>Projects</h2>
-                <h3>HTML Only Portfolio</h3>
-                <h3><a href="https://github.com/akantdotgit/accessible-registration-form">Accessible Registration
-                        Form</a></h3>
-                <h3><a href="https://github.com/akantdotgit/achievers-coaching">Achievers Coaching - Only Frontend
-                    </a></h3>
-            </div>
-            <br>
-            <div>
-                <h2>Work Experience</h2>
-                <p>NILL</p>
-            </div>
-            <br>
-            <div>
-                <h2>Education</h2>
-                <p>Higher Secondary Education (Class 12 - Hindi Medium) | 83.8%</p>
-                <p>Sandipani Vidhyalaya, O.ganj</p>
-                <p>Year of Completion: 2025</p>
-                <br>
-                <h5>Course I took:</h5>
-                <p>- Beyond Sigma</p>
-                <h5>What I know:</h5>
-                <p>- HTML</p>
-            </div>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Projects</th>
+                        <th>Work Experience</th>
+                        <th>Education</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <h3>HTML Only Portfolio</h3>
+                        </td>
+                        <td rowspan="3"><p>NILL</p></td>
+                        <td rowspan="3">
+                            <h2>Education</h2>
+                            <p>Higher Secondary Education (Class 12 - Hindi Medium) | 83.8%</p>
+                            <p>Sandipani Vidhyalaya, O.ganj</p>
+                            <p>Year of Completion: 2025</p>
+                            <h5>Course I took:</h5>
+                            <p>- Beyond Sigma</p>
+                            <h5>What I know:</h5>
+                            <p>- HTML</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3><a href="https://github.com/akantdotgit/accessible-registration-form">Accessible
+                                    Registration Form</a></h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3><a href="https://github.com/akantdotgit/achievers-coaching">Achievers Coaching - Only Frontend</a></h3>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
-    <br>
+    <hr>
     <footer>
-        <p>thank you - task 1 completed</p>
+        <p>&copy; all rights reserved 2026</p>
+        <p>task-2-completed</p>
+        <hr>
     </footer>
 </body>
 
