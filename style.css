@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+}
+
+body {
+    border: 2px solid #1E1E1E;
+}
+
+header {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.wrap-profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wrap-profile>img {
+    width: 12%;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #1E1E1E;
+    border-radius: 50%;
+}
+
+.name {
+    line-height: 1.3;
+}
+
+.name>h1 {
+    font-family: cursive;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.name>p {
+    color: #7d8186;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav>a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+.hero {
+    margin: 3rem 0 5rem 0;
+    width: inherit;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.hero>h1 {
+    color: #1E1E1E;
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+
+.hero>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7d8186;
+    font-weight: 400;
+    font-size: 1.05rem;
+}
+
+.info {
+    display: flex;
+    border-top: 2px solid #1E1E1E;
+    border-bottom: 2px solid #1E1E1E;
+    color: #1E1E1E;
+    text-align: left;
+}
+
+.wrap-projects {
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: 2px solid #1E1E1E;
+    padding: 15px;
+    line-height: 1.8;
+}
+
+.wrap-projects>h2 {
+    font-family: cursive;
+}
+
+.wrap-projects>h3 {
+    border-bottom: 2px solid #1E1E1E;
+}
+
+.wrap-projects>h3>a {
+    text-decoration: none;
+    color: #7d8186;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.wrap-work {
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: 2px solid #1E1E1E;
+    padding: 15px;
+    line-height: 1.8;
+}
+
+.wrap-work>h2 {
+    font-family: cursive;
+}
+
+.wrap-work>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1E1E1E;
+}
+
+.wrap-edu {
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    line-height: 1.8;
+}
+
+.wrap-edu>h2 {
+    font-family: cursive;
+}
+
+.wrap-edu>h5 {
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.para {
+    color: #1E1E1E;
+    line-height: 1.2;
+}
+
+footer {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.3rem;
+    margin: 6rem 0 4rem 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+footer>:last-child {
+    font-style: normal;
+    color: #7d8186;
+    font-size: 1rem;
+}
