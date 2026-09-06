@@ -4,75 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second-HTML</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <hr>
-        <div>
-            <img src="nyc_my_avatar.jpg" width="50" alt="Profile Image">
-            <span><b>Akant Insha</b></span>
+        <div class="wrap-profile">
+            <img src="nyc_my_avatar.jpg" alt="Profile Image">
+            <div class="name">
+                <h1>Akant Insha</h1>
+                <p>akantindev@gmail.com</p>
+            </div>
         </div>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Articles</a>
+            <a href="#">Home</a><span> /</span>
+            <a href="#">Projects</a><span> /</span>
+            <a href="#">Articles</a><span> /</span>
             <a href="#">Contact</a>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="hero">
             <h1>Student at Not Your College</h1>
             <p>html only with semantics, no styling</p>
         </section>
-        <hr>
-        <section>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Projects</th>
-                        <th>Work Experience</th>
-                        <th>Education</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <h3>HTML Only Portfolio</h3>
-                        </td>
-                        <td rowspan="3"><p>NILL</p></td>
-                        <td rowspan="3">
-                            <h2>Education</h2>
-                            <p>Higher Secondary Education (Class 12 - Hindi Medium) | 83.8%</p>
-                            <p>Sandipani Vidhyalaya, O.ganj</p>
-                            <p>Year of Completion: 2025</p>
-                            <h5>Course I took:</h5>
-                            <p>- Beyond Sigma</p>
-                            <h5>What I know:</h5>
-                            <p>- HTML</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h3><a href="https://github.com/akantdotgit/accessible-registration-form">Accessible
-                                    Registration Form</a></h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h3><a href="https://github.com/akantdotgit/achievers-coaching">Achievers Coaching - Only Frontend</a></h3>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <section class="info">
+            <div class="wrap-projects">
+                <h2>Projects</h2>
+                <h3>
+                    <a href="https://github.com/akantdotgit/accessible-registration-form">Accessible
+                        Registration Form
+                    </a>
+                </h3>
+                <h3>
+                    <a href="https://github.com/akantdotgit/achievers-coaching">Achievers Coaching - Only Frontend
+                    </a>
+                </h3>
+                <h3><a href="https://github.com/akantdotgit/NYCs-TASKS">HTML + CSS Portfolio</a></h3>
+            </div>
+            <div class="wrap-work">
+                <h2>Work Experience</h2>
+                <p>NILL</p>
+            </div>
+            <div class="wrap-edu">
+                <h2>Education</h2>
+                <div class="para">
+                    <p>Higher Secondary Education (Class 12 - Hindi Medium) | 83.8%</p>
+                    <p>Sandipani Vidhyalaya, O.ganj</p>
+                    <p>Year of Completion: 2025</p>
+                </div>
+                <h5>Course I took:</h5>
+                <div class="para">
+                    <p>- Beyond Sigma</p>
+                </div>    
+                <h5>What I know:</h5>
+                <div class="para">
+                    <p>- HTML</p>
+                    <p>- CSS (basic)</p>
+                </div>
+            </div>
         </section>
     </main>
-    <hr>
     <footer>
         <p>&copy; all rights reserved 2026</p>
-        <p>task-2-completed</p>
-        <hr>
+        <p>This is my portfolio built on HTML and basic CSS.</p>
     </footer>
 </body>
 
